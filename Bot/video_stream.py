@@ -19,7 +19,7 @@ VIDEO_CALL = {}
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["start"]))
 async def start(client, m: Message):
-	await m.reply("Hello Mulai stream video menggunakan perintah /play(reply_to_message) and /stop\n  ")
+	await m.reply("Hello Hashishers!!!\n Saya Bot Stream \n Mulai stream video menggunakan perintah /play (Balas_ke_pesan) dan /stop\n [Developer](https://t.me/fqcxuu)  ")
 
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["play"]))
